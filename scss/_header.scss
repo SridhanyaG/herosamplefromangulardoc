@@ -1,0 +1,37 @@
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+header > img {
+	width: 5em;
+	justify-content: flex-start;
+	align-self: flex-start;
+	order: 1;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	@include laptop {
+		width: 7em;
+	}
+	@include desktop {
+		width: 7em;
+	}
+}
+#socialicons {
+	justify-content: flex-end;
+	order: 2;
+	align-self: flex-end;
+	margin-left: auto;
+	min-width: 5em;
+	@include laptop {
+		font-size: 1.5em;
+	}
+	@include desktop {
+		font-size: 1.5em;
+	}
+}
+#socialicons > a {
+	padding: 0.25em;
+}

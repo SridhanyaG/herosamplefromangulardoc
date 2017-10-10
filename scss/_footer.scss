@@ -1,0 +1,22 @@
+footer {
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+}
+
+#navigator > a {
+	font-color: #333300;
+	font-size: 2em;
+	display: inline-block;
+	@include tablet {
+		display: none;
+	}
+	@include phone {
+		display: none;
+	}
+	@include small_phone {
+		display: none;
+	}
+}

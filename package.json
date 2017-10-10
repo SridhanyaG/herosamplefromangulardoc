@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Assignment by udacity to create a portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile": "node-sass --output-style compressed -o dist/css/ scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SridhanyaG/udacityportfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "SridhanyaG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SridhanyaG/udacityportfolio/issues"
+  },
+  "homepage": "https://github.com/SridhanyaG/udacityportfolio#readme",
+  "devDependencies": {
+    "node-sass": "4.5.0"
+  }
+}

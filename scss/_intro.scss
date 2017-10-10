@@ -1,0 +1,56 @@
+#smallPic {
+	display: none;
+	border-radius: 50%;
+	border: 3px solid black;
+	@include phone {
+		display: block;
+		width: 12em;
+		height: 12em;
+		background: url("../images/sridhanyaintro.jpg") no-repeat;
+		background-position: 12% 6%;
+		margin: 5% 20%;
+	}
+	@include small_phone {
+		display: block;
+		width: 12em;
+		height: 12em;
+		background: url("../images/sridhanyaintro.jpg") no-repeat;
+		background-position: 12% 6%;
+		margin: 5% 15%;
+	}
+}
+#intro {
+	width: 60em;
+	height: 30em;
+	background: url("../images/sridhanyaintro.jpg") no-repeat;
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    margin: 0.5%;
+    @include tablet {
+		width: 45em;
+		height: 20em;
+		margin: 2%;
+	}
+    @include phone {
+		width: 25em;
+		height: 15em;
+		background: url("../images/sridhanyaintromobile.jpg") no-repeat;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+		 margin: 3%;
+	}
+    @include small_phone {
+		width: 20em;
+		height: 15em;
+		background: url("../images/sridhanyaintromobile.jpg") no-repeat;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+		 margin: 1.5%;
+	}
+}
