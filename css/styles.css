@@ -1,1 +1,161 @@
-body{font-family:Georgia, Times, "Times New Roman", serif;font-size:16px}header{display:flex;flex-wrap:nowrap;flex-direction:row}header>img{width:7em;justify-content:flex-start;align-self:flex-start;order:1;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain}#socialicons{justify-content:flex-end;order:2;align-self:flex-end;margin-left:auto;min-width:5em;font-size:1.5em}#socialicons>a{padding:0.25em}#smallPic{display:none;border-radius:50%;border:3px solid black}@media only screen and (max-width: 480px){#smallPic{display:block;width:12em;height:12em;background:url("../images/sridhanyaintro.jpg") no-repeat;background-position:12% 6%;margin:5% 20%}}@media only screen and (max-width: 360px){#smallPic{display:block;width:12em;height:12em;background:url("../images/sridhanyaintro.jpg") no-repeat;background-position:12% 6%;margin:5% 15%}}#intro{width:60em;height:30em;background:url("../images/sridhanyaintro.jpg") no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;margin:0.5%}@media only screen and (max-width: 768px){#intro{width:45em;height:20em;margin:2%}}@media only screen and (max-width: 480px){#intro{width:25em;height:15em;background:url("../images/sridhanyaintromobile.jpg") no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;margin:3%}}@media only screen and (max-width: 360px){#intro{width:20em;height:15em;background:url("../images/sridhanyaintromobile.jpg") no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;margin:1.5%}}.project,#workExp{margin:0.5em 0em}.project h4{display:block}#projects{min-height:900px;margin-top:5em}@media only screen and (max-width: 768px){#projects{min-height:500px;margin-top:1em}}@media only screen and (max-width: 480px){#projects{min-height:500px;margin-top:1em}}@media only screen and (max-width: 360px){#projects{min-height:500px;margin-top:1em}}.project .fa,#summary .fa,#workExp .fa{margin-right:1em}.descriptionlink{display:none}@media only screen and (max-width: 768px){.descriptionlink{display:block}}@media only screen and (max-width: 480px){.descriptionlink{display:block}}@media only screen and (max-width: 360px){.descriptionlink{display:block}}.description{display:block}@media only screen and (max-width: 768px){.description{display:none}}@media only screen and (max-width: 480px){.description{display:none}}@media only screen and (max-width: 360px){.description{display:none}}#summarySection li{margin-bottom:1em}footer{position:fixed;bottom:0;color:white;text-align:center;right:0}#navigator>a{font-size:2em;display:inline-block}@media only screen and (max-width: 768px){#navigator>a{display:none}}@media only screen and (max-width: 480px){#navigator>a{display:none}}@media only screen and (max-width: 360px){#navigator>a{display:none}}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px; }
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+
+header > img {
+  width: 7em;
+  justify-content: flex-start;
+  align-self: flex-start;
+  order: 1;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
+
+#socialicons {
+  justify-content: flex-end;
+  order: 2;
+  align-self: flex-end;
+  margin-left: auto;
+  min-width: 5em;
+  font-size: 1.5em; }
+
+#socialicons > a {
+  padding: 0.25em; }
+
+#smallPic {
+  display: none;
+  border-radius: 50%;
+  border: 3px solid black; }
+  @media only screen and (max-width: 480px) {
+    #smallPic {
+      display: block;
+      width: 12em;
+      height: 12em;
+      background: url("../images/sridhanyaintro.jpg") no-repeat;
+      background-position: 12% 6%;
+      margin: 5% 20%; } }
+  @media only screen and (max-width: 360px) {
+    #smallPic {
+      display: block;
+      width: 12em;
+      height: 12em;
+      background: url("../images/sridhanyaintro.jpg") no-repeat;
+      background-position: 12% 6%;
+      margin: 5% 15%; } }
+
+#intro {
+  width: 60em;
+  height: 30em;
+  background: url("../images/sridhanyaintro.jpg") no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  margin: 0.5%; }
+  @media only screen and (max-width: 768px) {
+    #intro {
+      width: 45em;
+      height: 20em;
+      margin: 2%; } }
+  @media only screen and (max-width: 480px) {
+    #intro {
+      width: 25em;
+      height: 15em;
+      background: url("../images/sridhanyaintromobile.jpg") no-repeat;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      margin: 3%; } }
+  @media only screen and (max-width: 360px) {
+    #intro {
+      width: 20em;
+      height: 15em;
+      background: url("../images/sridhanyaintromobile.jpg") no-repeat;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      margin: 1.5%; } }
+
+.project, #workExp {
+  margin: 0.5em 0em; }
+
+.project h4 {
+  display: block; }
+
+#projects {
+  min-height: 900px;
+  margin-top: 5em; }
+  @media only screen and (max-width: 768px) {
+    #projects {
+      min-height: 500px;
+      margin-top: 1em; } }
+  @media only screen and (max-width: 480px) {
+    #projects {
+      min-height: 500px;
+      margin-top: 1em; } }
+  @media only screen and (max-width: 360px) {
+    #projects {
+      min-height: 500px;
+      margin-top: 1em; } }
+
+.project .fa, #summary .fa, #workExp .fa {
+  margin-right: 1em; }
+
+.descriptionlink {
+  display: none; }
+  @media only screen and (max-width: 768px) {
+    .descriptionlink {
+      display: block; } }
+  @media only screen and (max-width: 480px) {
+    .descriptionlink {
+      display: block; } }
+  @media only screen and (max-width: 360px) {
+    .descriptionlink {
+      display: block; } }
+
+.description {
+  display: block; }
+  @media only screen and (max-width: 768px) {
+    .description {
+      display: none; } }
+  @media only screen and (max-width: 480px) {
+    .description {
+      display: none; } }
+  @media only screen and (max-width: 360px) {
+    .description {
+      display: none; } }
+
+#summarySection li {
+  margin-bottom: 1em; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  right: 0; }
+
+#navigator > a {
+  font-size: 2em;
+  display: inline-block; }
+  @media only screen and (max-width: 768px) {
+    #navigator > a {
+      display: none; } }
+  @media only screen and (max-width: 480px) {
+    #navigator > a {
+      display: none; } }
+  @media only screen and (max-width: 360px) {
+    #navigator > a {
+      display: none; } }
