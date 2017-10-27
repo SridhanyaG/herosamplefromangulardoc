@@ -1,0 +1,51 @@
+#aboutMeInfoImgs {
+    display: flex;
+    @include desktop {
+    		flex-direction: row;
+    }
+    @include laptop {
+    		flex-direction: row;
+    }
+     @include tablet {
+    	flex-direction: column;
+    }
+    @include medium_phone {
+    	flex-direction: column;
+    }
+    @include phone {
+    	flex-direction: column;
+    }
+    @include small_phone {
+    	flex-direction: column;
+    }
+}
+.aboutMePic {
+    width: 20em;
+    height: 20em;
+    background-size: contain;
+    border: 1px;
+	border: 2px dotted;
+	border: medium dashed green;
+	margin: 1em;
+	@include desktop {
+		margin: 0.25em;
+	}
+     @include tablet {
+	    width: 20em;
+	    height: 20em;
+	    margin-left: 10%;
+        background-size: contain;
+    }
+    @include phone {
+	    width: 20em;
+	    height: 20em;
+        background-size: contain;
+        margin-left: 1.5em;
+    }
+    @include small_phone {
+	    width: 15em;
+	    height: 15em;
+        background-size: contain;
+        margin-left: 1.5em;
+    }
+}

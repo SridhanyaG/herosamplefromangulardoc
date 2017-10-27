@@ -3,14 +3,11 @@ header {
 	flex-wrap: nowrap;
 	flex-direction: row;
 }
-header > img {
+#userLogo {
 	width: 7em;
 	justify-content: flex-start;
 	align-self: flex-start;
 	order: 1;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
 	background-size: contain;
 }
 #socialicons {

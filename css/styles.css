@@ -11,14 +11,11 @@ header {
   flex-wrap: nowrap;
   flex-direction: row; }
 
-header > img {
+#userLogo {
   width: 7em;
   justify-content: flex-start;
   align-self: flex-start;
   order: 1;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
   background-size: contain; }
 
 #socialicons {
@@ -57,9 +54,6 @@ header > img {
   width: 60em;
   height: 30em;
   background: url("../images/sridhanyaintro.jpg") no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
   background-size: contain;
   margin: 0.5%; }
   @media only screen and (max-width: 768px) {
@@ -67,14 +61,16 @@ header > img {
       width: 45em;
       height: 20em;
       margin: 2%; } }
+  @media only screen and (max-width: 601px) {
+    #intro {
+      width: 35em;
+      height: 20em;
+      margin: 1%; } }
   @media only screen and (max-width: 480px) {
     #intro {
       width: 25em;
       height: 15em;
       background: url("../images/sridhanyaintromobile.jpg") no-repeat;
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
       background-size: contain;
       margin: 3%; } }
   @media only screen and (max-width: 360px) {
@@ -82,9 +78,6 @@ header > img {
       width: 20em;
       height: 15em;
       background: url("../images/sridhanyaintromobile.jpg") no-repeat;
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
       background-size: contain;
       margin: 1.5%; } }
 
@@ -159,3 +152,54 @@ footer {
   @media only screen and (max-width: 360px) {
     #navigator > a {
       display: none; } }
+
+#aboutMeInfoImgs {
+  display: flex; }
+  @media only screen and (max-width: 1200px) {
+    #aboutMeInfoImgs {
+      flex-direction: row; } }
+  @media only screen and (max-width: 992px) {
+    #aboutMeInfoImgs {
+      flex-direction: row; } }
+  @media only screen and (max-width: 768px) {
+    #aboutMeInfoImgs {
+      flex-direction: column; } }
+  @media only screen and (max-width: 601px) {
+    #aboutMeInfoImgs {
+      flex-direction: column; } }
+  @media only screen and (max-width: 480px) {
+    #aboutMeInfoImgs {
+      flex-direction: column; } }
+  @media only screen and (max-width: 360px) {
+    #aboutMeInfoImgs {
+      flex-direction: column; } }
+
+.aboutMePic {
+  width: 20em;
+  height: 20em;
+  background-size: contain;
+  border: 1px;
+  border: 2px dotted;
+  border: medium dashed green;
+  margin: 1em; }
+  @media only screen and (max-width: 1200px) {
+    .aboutMePic {
+      margin: 0.25em; } }
+  @media only screen and (max-width: 768px) {
+    .aboutMePic {
+      width: 20em;
+      height: 20em;
+      margin-left: 10%;
+      background-size: contain; } }
+  @media only screen and (max-width: 480px) {
+    .aboutMePic {
+      width: 20em;
+      height: 20em;
+      background-size: contain;
+      margin-left: 1.5em; } }
+  @media only screen and (max-width: 360px) {
+    .aboutMePic {
+      width: 15em;
+      height: 15em;
+      background-size: contain;
+      margin-left: 1.5em; } }

@@ -16,6 +16,11 @@
          @content;
     }
 }
+@mixin medium_phone {
+    @media only screen and (max-width : 601px) {
+        @content;
+    }
+}
     /* Extra Small Devices, Phones */ 
 @mixin phone {
     @media only screen and (max-width : 480px) {
