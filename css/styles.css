@@ -6,6 +6,11 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 16px; }
 
+.listelement {
+  display: list-item;
+  list-style-type: circle;
+  margin-left: 1.3em; }
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -138,20 +143,33 @@ footer {
   bottom: 0;
   color: white;
   text-align: center;
-  right: 0; }
+  right: 0;
+  left: auto; }
+  @media only screen and (max-width: 768px) {
+    footer {
+      left: 0;
+      right: auto; } }
+  @media only screen and (max-width: 480px) {
+    footer {
+      left: 0;
+      right: auto; } }
+  @media only screen and (max-width: 360px) {
+    footer {
+      left: 0;
+      right: auto; } }
 
 #navigator > a {
   font-size: 2em;
   display: inline-block; }
   @media only screen and (max-width: 768px) {
     #navigator > a {
-      display: none; } }
+      display: 1em; } }
   @media only screen and (max-width: 480px) {
     #navigator > a {
-      display: none; } }
+      display: 1em; } }
   @media only screen and (max-width: 360px) {
     #navigator > a {
-      display: none; } }
+      display: 1em; } }
 
 #aboutMeInfoImgs {
   display: flex; }

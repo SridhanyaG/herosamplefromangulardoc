@@ -3,3 +3,8 @@ body {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 16px;
 }
+.listelement {
+	display:list-item;
+	list-style-type: circle; 
+	margin-left: 1.3em;
+}
