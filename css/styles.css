@@ -87,7 +87,7 @@ header {
       margin: 1.5%; } }
 
 .project, #workExp {
-  margin: 0.5em 0em; }
+  margin: 0.5em 0; }
 
 .project h4 {
   display: block; }
