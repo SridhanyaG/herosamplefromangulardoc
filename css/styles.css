@@ -133,6 +133,9 @@ header {
 #summarySection li {
   margin-bottom: 1em; }
 
+#summaryExp .fa-list-alt {
+  margin-right: 1em; }
+
 #aboutMeInfoImgs {
   display: flex; }
   @media only screen and (max-width: 1200px) {
@@ -183,3 +186,26 @@ header {
       height: 15em;
       background-size: contain;
       margin-left: 1.5em; } }
+
+#aboutMe .fa-user {
+  margin-right: 1em; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  right: 0;
+  left: auto; }
+  @media only screen and (max-width: 768px) {
+    footer {
+      left: 0;
+      right: auto; } }
+  @media only screen and (max-width: 480px) {
+    footer {
+      left: 0;
+      right: auto; } }
+  @media only screen and (max-width: 360px) {
+    footer {
+      left: 0;
+      right: auto; } }
