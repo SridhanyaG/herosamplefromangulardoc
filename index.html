@@ -5,20 +5,26 @@
         <meta name="viewport" content='width=device-width, initial-scale=1'>
         <title>Sridhanya Ganapathi : Full Stack Web Developer</title>
         <meta name="description" content="Hands on experience in UI stack on HTML5, CSS3, LESS, SCSS, JavaScript, Angular 2, Node Js, JSON, AJAX, JQUERY, Backbone, Bootstrap, Jasmine.">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/styles.css" rel="stylesheet">
-        <script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>
     </head>
-    <body class="container">
-        <header id="myself" class="row">
-                <img id="userLogo" src="images/nameicon1.png" class="img-responsive col-md-9" alt="i am sridhanya logo" data-toggle="tooltip" title="Sridhanya Ganapathi">
-                <div id="socialicons" class="col-md-3 pull-right">         
+    <body>
+        <div class="container">
+        <header id="myself" class="d-flex flex-row flex-nowrap">
+                <img id="userLogo" src="images/nameicon1.png" class="d-flex justify-content-start align-self-start" alt="i am sridhanya logo" data-toggle="tooltip" title="Sridhanya Ganapathi">
+                <div id="socialicons" class="d-flex justify-content-end align-self-end ml-auto">         
                     <a href="mailto:sridhanya77@gmail.com" data-toggle="tooltip" title="sridhanya77@gmail.com"  target="_blank"><i class="fa fa-envelope"></i></a>   
                     <a href="https://www.linkedin.com/in/sridhanya-ganapathi-aa196022/" data-toggle="tooltip" title="sridhanya-ganapathi-aa196022" target="_blank"><i class="fa fa-linkedin"></i></a> 
                     <a href="https://github.com/SridhanyaG" data-toggle="tooltip" title="SridhanyaG" target="_blank"><i class="fa fa-github"></i></a>   
@@ -29,9 +35,9 @@
                 <hr>
             </div>
         </div>
-        <main>
+        <main id="mainApp">
             <div id="smallPic" class="row col-sm-12"></div>
-            <div class="row">
+            <div class="row" id="introSection">
                 <div id="intro" class="col-sm-12 col-md-12 col-lg-12"></div>
             </div>
             <section id="projects">
@@ -193,10 +199,6 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div id="navigator">
-                <a title="Back To Top" id="up" href="#myself" class="navigate"><i class="fa fa-arrow-circle-up"></i></a>
-            </div>
-        </footer>
+        </div>
     </body>
 </html>

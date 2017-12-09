@@ -18,16 +18,11 @@ header {
 
 #userLogo {
   width: 7em;
-  justify-content: flex-start;
-  align-self: flex-start;
   order: 1;
   background-size: contain; }
 
 #socialicons {
-  justify-content: flex-end;
   order: 2;
-  align-self: flex-end;
-  margin-left: auto;
   min-width: 5em;
   font-size: 1.5em; }
 
@@ -137,39 +132,6 @@ header {
 
 #summarySection li {
   margin-bottom: 1em; }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  color: white;
-  text-align: center;
-  right: 0;
-  left: auto; }
-  @media only screen and (max-width: 768px) {
-    footer {
-      left: 0;
-      right: auto; } }
-  @media only screen and (max-width: 480px) {
-    footer {
-      left: 0;
-      right: auto; } }
-  @media only screen and (max-width: 360px) {
-    footer {
-      left: 0;
-      right: auto; } }
-
-#navigator > a {
-  font-size: 2em;
-  display: inline-block; }
-  @media only screen and (max-width: 768px) {
-    #navigator > a {
-      display: 1em; } }
-  @media only screen and (max-width: 480px) {
-    #navigator > a {
-      display: 1em; } }
-  @media only screen and (max-width: 360px) {
-    #navigator > a {
-      display: 1em; } }
 
 #aboutMeInfoImgs {
   display: flex; }
