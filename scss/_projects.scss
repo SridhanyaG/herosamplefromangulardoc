@@ -1,9 +1,6 @@
 .project, #workExp {
 	margin: 0.5em 0;
 }
-.project h4 {
-	display: block;
-}
 #projects {
 	min-height: 900px;
 	margin-top: 5em;
@@ -22,28 +19,4 @@
 }
 .project .fa, #summary .fa, #workExp .fa {
 	margin-right: 1em;
-}
-.descriptionlink {
-	display: none;
-	@include tablet {
-		display: block;
-	}
-	@include phone {
-		display: block;
-	}
-	@include small_phone {
-		display: block;
-	}
-}
-.description {
-	display: block;
-	@include tablet {
-		display: none;
-	}
-	@include phone {
-		display: none;
-	}
-	@include small_phone {
-		display: none;
-	}	
 }

@@ -29,63 +29,74 @@ header {
 #socialicons > a {
   padding: 0.25em; }
 
-#smallPic {
-  display: none;
-  border-radius: 50%;
-  border: 3px solid black; }
-  @media only screen and (max-width: 480px) {
-    #smallPic {
-      display: block;
-      width: 12em;
-      height: 12em;
-      background: url("../images/sridhanyaintro.jpg") no-repeat;
-      background-position: 12% 6%;
-      margin: 5% 20%; } }
-  @media only screen and (max-width: 360px) {
-    #smallPic {
-      display: block;
-      width: 12em;
-      height: 12em;
-      background: url("../images/sridhanyaintro.jpg") no-repeat;
-      background-position: 12% 6%;
-      margin: 5% 15%; } }
-
-#intro {
-  width: 60em;
+#profilePic {
+  width: 20em;
   height: 30em;
-  background: url("../images/sridhanyaintro.jpg") no-repeat;
+  background: url("../images/sridhanyafullpic.jpg") no-repeat;
   background-size: contain;
+  background-position: center;
   margin: 0.5%; }
+  @media only screen and (max-width: 992px) {
+    #profilePic {
+      width: 15em;
+      height: 20em; } }
   @media only screen and (max-width: 768px) {
-    #intro {
-      width: 45em;
-      height: 20em;
-      margin: 2%; } }
+    #profilePic {
+      width: 12em;
+      height: 12em;
+      background-position: 12% 6%;
+      margin: 5% 25%;
+      background-size: cover;
+      border-radius: 50%; } }
+  @media only screen and (max-width: 480px) {
+    #profilePic {
+      width: 12em;
+      height: 12em;
+      background-position: 12% 6%;
+      background-size: cover;
+      border-radius: 50%; } }
+  @media only screen and (max-width: 360px) {
+    #profilePic {
+      width: 12em;
+      height: 10em;
+      background-position: 12% 6%;
+      background-size: cover;
+      border-radius: 50%; } }
+
+#profileIntro {
+  width: 35em;
+  height: 32em;
+  background: url("../images/sridhanyaintrotext.jpg") no-repeat;
+  background-size: contain;
+  background-position: center; }
+  @media only screen and (max-width: 992px) {
+    #profileIntro {
+      width: 25em;
+      height: 21em; } }
+  @media only screen and (max-width: 768px) {
+    #profileIntro {
+      height: 25em;
+      width: 35em; } }
   @media only screen and (max-width: 601px) {
-    #intro {
+    #profileIntro {
       width: 35em;
       height: 20em;
       margin: 1%; } }
   @media only screen and (max-width: 480px) {
-    #intro {
+    #profileIntro {
       width: 25em;
       height: 15em;
-      background: url("../images/sridhanyaintromobile.jpg") no-repeat;
       background-size: contain;
       margin: 3%; } }
   @media only screen and (max-width: 360px) {
-    #intro {
+    #profileIntro {
       width: 20em;
       height: 15em;
-      background: url("../images/sridhanyaintromobile.jpg") no-repeat;
       background-size: contain;
       margin: 1.5%; } }
 
 .project, #workExp {
   margin: 0.5em 0; }
-
-.project h4 {
-  display: block; }
 
 #projects {
   min-height: 900px;
@@ -106,86 +117,35 @@ header {
 .project .fa, #summary .fa, #workExp .fa {
   margin-right: 1em; }
 
-.descriptionlink {
-  display: none; }
-  @media only screen and (max-width: 768px) {
-    .descriptionlink {
-      display: block; } }
-  @media only screen and (max-width: 480px) {
-    .descriptionlink {
-      display: block; } }
-  @media only screen and (max-width: 360px) {
-    .descriptionlink {
-      display: block; } }
-
-.description {
-  display: block; }
-  @media only screen and (max-width: 768px) {
-    .description {
-      display: none; } }
-  @media only screen and (max-width: 480px) {
-    .description {
-      display: none; } }
-  @media only screen and (max-width: 360px) {
-    .description {
-      display: none; } }
-
 #summarySection li {
   margin-bottom: 1em; }
 
 #summaryExp .fa-list-alt {
   margin-right: 1em; }
 
-#aboutMeInfoImgs {
-  display: flex; }
-  @media only screen and (max-width: 1200px) {
-    #aboutMeInfoImgs {
-      flex-direction: row; } }
-  @media only screen and (max-width: 992px) {
-    #aboutMeInfoImgs {
-      flex-direction: row; } }
-  @media only screen and (max-width: 768px) {
-    #aboutMeInfoImgs {
-      flex-direction: column; } }
-  @media only screen and (max-width: 601px) {
-    #aboutMeInfoImgs {
-      flex-direction: column; } }
-  @media only screen and (max-width: 480px) {
-    #aboutMeInfoImgs {
-      flex-direction: column; } }
-  @media only screen and (max-width: 360px) {
-    #aboutMeInfoImgs {
-      flex-direction: column; } }
-
 .aboutMePic {
-  width: 20em;
   height: 20em;
   background-size: contain;
-  border: 1px;
   border: 2px dotted;
-  border: medium dashed green;
-  margin: 1em; }
+  border: medium dashed green; }
   @media only screen and (max-width: 1200px) {
     .aboutMePic {
-      margin: 0.25em; } }
+      height: 17em; } }
+  @media only screen and (max-width: 992px) {
+    .aboutMePic {
+      height: 15em; } }
   @media only screen and (max-width: 768px) {
     .aboutMePic {
-      width: 20em;
-      height: 20em;
-      margin-left: 10%;
+      height: 30em;
       background-size: contain; } }
   @media only screen and (max-width: 480px) {
     .aboutMePic {
-      width: 20em;
-      height: 20em;
-      background-size: contain;
-      margin-left: 1.5em; } }
+      height: 30em;
+      background-size: contain; } }
   @media only screen and (max-width: 360px) {
     .aboutMePic {
-      width: 15em;
-      height: 15em;
-      background-size: contain;
-      margin-left: 1.5em; } }
+      height: 30em;
+      background-size: contain; } }
 
 #aboutMe .fa-user {
   margin-right: 1em; }

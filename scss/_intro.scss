@@ -1,35 +1,51 @@
-#smallPic {
-	display: none;
-	border-radius: 50%;
-	border: 3px solid black;
-	@include phone {
-		display: block;
+#profilePic {
+	width: 20em;
+	height: 30em;
+	background: url("../images/sridhanyafullpic.jpg") no-repeat;
+    background-size: contain;
+    background-position:center;
+    margin: 0.5%;
+    @include laptop {
+		width: 15em;
+		height: 20em;
+    }
+    @include tablet {
 		width: 12em;
 		height: 12em;
-		background: url("../images/sridhanyaintro.jpg") no-repeat;
 		background-position: 12% 6%;
-		margin: 5% 20%;
+		margin: 5% 25%;
+		background-size:cover;
+		border-radius: 50%;
+	}
+	@include phone {
+		width: 12em;
+		height: 12em;
+		background-position: 12% 6%;
+		background-size:cover;
+		border-radius: 50%;
 	}
 	@include small_phone {
-		display: block;
 		width: 12em;
-		height: 12em;
-		background: url("../images/sridhanyaintro.jpg") no-repeat;
+		height: 10em;
 		background-position: 12% 6%;
-		margin: 5% 15%;
+		background-size:cover;
+		border-radius: 50%;
 	}
 }
-#intro {
-	width: 60em;
-	height: 30em;
-	background: url("../images/sridhanyaintro.jpg") no-repeat;
+#profileIntro {
+	width: 35em;
+	height: 32em;
+	background: url("../images/sridhanyaintrotext.jpg") no-repeat;
     background-size: contain;
-    margin: 0.5%;
-    @include tablet {
-		width: 45em;
-		height: 20em;
-		margin: 2%;
-	}
+    background-position:center;
+    @include laptop {
+		width: 25em;
+		height: 21em;
+    }
+    @include tablet{
+    	height: 25em;
+    	width: 35em;
+    }
 	@include medium_phone {
 		width: 35em;
 		height: 20em;
@@ -38,15 +54,13 @@
     @include phone {
 		width: 25em;
 		height: 15em;
-		background: url("../images/sridhanyaintromobile.jpg") no-repeat;
 		background-size: contain;
-		 margin: 3%;
+		margin: 3%;
 	}
     @include small_phone {
 		width: 20em;
 		height: 15em;
-		background: url("../images/sridhanyaintromobile.jpg") no-repeat;
 		background-size: contain;
-		 margin: 1.5%;
+		margin: 1.5%;
 	}
 }

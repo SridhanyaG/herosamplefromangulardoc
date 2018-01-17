@@ -1,6 +1,16 @@
 $(document).ready(function() {
-	let visible = $(".descriptionlink").is(':visible');
-	if (visible) {
-		$(".description").addClass("in");
-	}
+
+  $(window).resize(function () {
+    collapseDescriptionIfNeeded();
+  });
+
+  function collapseDescriptionIfNeeded() {
+    let smallDevices = $(window).width() < 768;
+    if (smallDevices) {
+      $(".description").addClass("collapse");
+    } else {
+      $(".description").removeClass("collapse");
+    }
+  }
+  collapseDescriptionIfNeeded();
 });
