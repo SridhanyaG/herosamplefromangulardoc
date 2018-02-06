@@ -123,32 +123,28 @@ header {
 #summaryExp .fa-list-alt {
   margin-right: 1em; }
 
-.aboutMePic {
-  height: 20em;
-  background-size: contain;
-  border: 2px dotted;
-  border: medium dashed green; }
-  @media only screen and (max-width: 1200px) {
-    .aboutMePic {
-      height: 17em; } }
-  @media only screen and (max-width: 992px) {
-    .aboutMePic {
-      height: 15em; } }
-  @media only screen and (max-width: 768px) {
-    .aboutMePic {
-      height: 30em;
-      background-size: contain; } }
-  @media only screen and (max-width: 480px) {
-    .aboutMePic {
-      height: 30em;
-      background-size: contain; } }
-  @media only screen and (max-width: 360px) {
-    .aboutMePic {
-      height: 30em;
-      background-size: contain; } }
-
 #aboutMe .fa-user {
   margin-right: 1em; }
+
+.aboutMePic {
+  border: 2px dotted;
+  border: medium dashed green;
+  max-height: 50vh; }
+  @media only screen and (max-width: 1200px) {
+    .aboutMePic {
+      max-height: 35vh; } }
+  @media only screen and (max-width: 992px) {
+    .aboutMePic {
+      max-height: 30vh; } }
+  @media only screen and (max-width: 768px) {
+    .aboutMePic {
+      max-height: 75vh; } }
+  @media only screen and (max-width: 480px) {
+    .aboutMePic {
+      max-height: 60vh; } }
+  @media only screen and (max-width: 360px) {
+    .aboutMePic {
+      max-height: 60vh; } }
 
 footer {
   position: fixed;

@@ -1,0 +1,20 @@
+footer {
+	position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+    left: auto;
+    @include tablet {
+		left: 0;
+		right: auto;
+	}
+	@include phone {
+		left: 0;
+		right: auto;
+	}
+	@include small_phone {
+		left: 0;
+		right: auto;
+	}
+}

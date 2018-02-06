@@ -1,27 +1,23 @@
-.aboutMePic {
-    height: 20em;
-    background-size: contain;
-	border: 2px dotted;
-	border: medium dashed green;
-	@include desktop {
-        height: 17em;
-	}
-    @include laptop {
-        height: 15em;
-    }
-     @include tablet {
-	    height: 30em;
-        background-size: contain;
-    }
-    @include phone {
-	    height: 30em;
-        background-size: contain;
-    }
-    @include small_phone {
-	    height: 30em;
-        background-size: contain;
-    }
-}
 #aboutMe .fa-user {
     margin-right: 1em;
+}
+.aboutMePic {
+    border: 2px dotted;
+    border: medium dashed green;
+    max-height: 50vh;
+    @include desktop {
+        max-height: 35vh;
+    }
+    @include laptop {
+        max-height: 30vh;
+    }
+     @include tablet {
+        max-height: 75vh;
+    }
+    @include phone {
+        max-height: 50vh;
+    }
+    @include small_phone {
+        max-height: 40vh;
+    }
 }
