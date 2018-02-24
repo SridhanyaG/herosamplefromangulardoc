@@ -1,23 +1,26 @@
 #aboutMe .fa-user {
     margin-right: 1em;
 }
+.aboutMeRow {
+    display: block;
+}
 .aboutMePic {
     border: 2px dotted;
     border: medium dashed green;
-    max-height: 50vh;
+    max-width: 350px;
     @include desktop {
-        max-height: 35vh;
+        max-width: 300px;
     }
     @include laptop {
-        max-height: 30vh;
+        max-width: 225px;
     }
      @include tablet {
-        max-height: 75vh;
+        max-width: 100%;
     }
     @include phone {
-        max-height: 50vh;
+       max-width: 100%;
     }
     @include small_phone {
-        max-height: 40vh;
+        max-width: 100%;
     }
 }
